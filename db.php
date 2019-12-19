@@ -1,9 +1,9 @@
 <?php
   // DB Credentials
   define('DB_SERVER', 'localhost');
-  define('DB_USERNAME', 'tbhwx053');
-  define('DB_PASSWORD', 'SWXswx0531');
-  define('DB_NAME', 'tbhwx053');
+  define('DB_USERNAME', '');
+  define('DB_PASSWORD', '');
+  define('DB_NAME', '');
 
   // Attempt to connect to MySQL
   try {
