@@ -20,7 +20,7 @@
   </a>
 </p>
 
-<img src="https://github.com/SpiderMate/B-XSSRF/blob/master/img/dashboard.png" alt="B-XSSRF">
+<img src="https://github.com/xmrseo/B-XSSRF/blob/master/img/dashboard.png" alt="B-XSSRF">
 
 ### SETUP
 - Upload the files to your server.
