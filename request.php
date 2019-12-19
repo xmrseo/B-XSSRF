@@ -1,6 +1,7 @@
 <?php
   // Include db config
   require_once 'db.php';
+  require_once 'fuction.php'
 ?>
 
 <?php
