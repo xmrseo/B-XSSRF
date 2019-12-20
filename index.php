@@ -124,7 +124,7 @@ a {color: #001f3f;}
                 <a href="?delete_logs">DELETE</a>  |
                 <a href="settings.php">SETTINGS</a>  |
                 <a href="javascript:alert('I &hearts; Hacking')">ABOUT</a>  |
-                <a href="logout.php">LOGOUT</a>javascript:;
+                <a href="logout.php">LOGOUT</a> |
             </div>
         </td>
     </tr>
