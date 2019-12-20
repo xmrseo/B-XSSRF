@@ -6,7 +6,7 @@
 
 <?php
 
-   date_default_timezone_set('Asia/Kolkata'); // Set your Time Zone Here
+   date_default_timezone_set('Asia/Shanghai'); // Set your Time Zone Here
     
    $ip = $_SERVER['REMOTE_ADDR'];
    $details = json_decode(file_get_contents("http://ipinfo.io/{$ip}"));
