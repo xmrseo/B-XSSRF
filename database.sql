@@ -24,6 +24,7 @@ INSERT INTO `users` (`id`, `name`, `email`, `password`, `created_at`) VALUES
 CREATE TABLE `xssrf_logs` (
   `id` int(11) NOT NULL,
   `ip` varchar(255) NOT NULL,
+  `country` varchar(255) NOT NULL,
   `header` varchar(1024) NOT NULL,
   `parameter` varchar(255) NOT NULL,
   `datex` varchar(255) NOT NULL,
